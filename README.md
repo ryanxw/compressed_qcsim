@@ -8,3 +8,4 @@ https://github.com/intel/Intel-QS
 
 https://github.com/disheng222/SZ
 
+The makefiles are established against Argonne Theta supercomputing system.
