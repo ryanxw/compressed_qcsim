@@ -1033,12 +1033,12 @@ void QubitRegister<Type>::CompressionInfo()
       }
     }
     else if (compress_level < 3) {
-      if ((total_size+total_blk_cache_size)/1024/1024 > 48*1024){
+      if ((total_size+total_blk_cache_size)/1024/1024 > 64*1024){
         compress_level = compress_level + 1;
       }
     }
     else if (compress_level < 4) {
-      if ((total_size+total_blk_cache_size)/1024/1024 > 128*1024){
+      if ((total_size+total_blk_cache_size)/1024/1024 > 96*1024){
         compress_level = compress_level + 1;
       }
     }
